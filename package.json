@@ -5,9 +5,9 @@
   "main": "arrayUtils.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
-  "author": "",
+  "author": "Nikita Zlobin",
   "license": "ISC",
   "dependencies": {
     "fast-check": "^4.0.0",
