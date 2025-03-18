@@ -1,4 +1,4 @@
-import { removeDuplicates, sortNumbers, sumPositiveNumbers, groupByParity, findCommonElements } from './arrayUtils';
+import { removeDuplicates, sortNumbers, sumPositiveNumbers, groupByParity, findCommonElements } from '../arrayUtils';
 import { describe, expect } from '@jest/globals'
 import * as fc from 'fast-check';
 
